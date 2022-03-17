@@ -25,5 +25,3 @@ Daten müssen wie wie folgt vorliegen?
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
-
-Fabi was here
