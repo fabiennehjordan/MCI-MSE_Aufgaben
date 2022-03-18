@@ -24,7 +24,7 @@ Daten müssen wie wie folgt vorliegen?
 - [Julian Huber - 123](julian.huber@mci.edu)
 - [Jennifer Ladig - 52111020](jenny@ladig.de)
 - [David Mikulic - 52110061](davidmikulic.2000@gmail.com)
-- [Fabienné Hilda Jordan -52110058] (jf9086@mci4me.at)
+- [Fabienne Jordan -52110058](jf9086@mci4me.at)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
