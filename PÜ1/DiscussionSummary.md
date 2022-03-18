@@ -8,7 +8,13 @@ Dieses Projekt ermöglicht die Automatisierung sowie eine Vereinfachung von Leis
 
 ### Scope of project
 
+Derzeit gibt es nur einen Test-Typ: Ein festes Leistungsziel soll binnen 3 Minuten erreicht werden. Der Puls, die erbrachte Leistung und die Zeit wird von dem Ergometer als sperate Dateien abgespeichert. Derzeit gibt es noch kein UI, dh. die Software wird über eine Kommandozeile bedient. Der Test kann durch folgende Kriterien abgebrochen werden:
 
+  - wenn der Puls 90% der maximalen Herzfrequenz erreicht
+  - Abbruch durch den Diagnostiker:in 
+
+Zudem werden Daten der Proband:in, wie Name, User-ID und Geburtsdatum gespeichert.
+Aufgezeichnete Plots und deren Daten können abgespeichert werden. Je nach Kriteriumserfüllung werden diese in seperate Ordner gespeichert.
 
 ### Other background information
 
@@ -49,7 +55,15 @@ Aus diesem muss die Herzrate bestimmt werden.
 
 ## Known future enhancements
 
-...
+Entwicklung einer Applikation mit einem UI.
+Vor der Durchführung soll eine Abfrage auf Kontraindikationen ausgeführt werden. diese können beinhalten:
+
+  - Floride systemische oder kardiale Infektion
+  - Instabile Angina pectoris oder Myokardinfarkt
+  - Schwere Aortenstenose
+  - Schwere Herzinsuffizienz
+  - Akute respiratorische Insuffizienz
+  - Akute Thrombose der unteren Extremitäten mit oder ohne Lungenembolie
 
 ## References
 
