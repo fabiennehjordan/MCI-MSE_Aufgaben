@@ -14,7 +14,7 @@ Derzeit gibt es nur einen Test-Typ: Ein festes Leistungsziel soll binnen 3 Minut
   - Abbruch durch den Diagnostiker:in 
 
 Zudem werden Daten der Proband:in, wie Name, User-ID und Geburtsdatum gespeichert.
-Aufgezeichnete Plots und deren Daten können abgespeichert werden. Je nach Kriteriumserfüllung werden diese in seperate Ordner gespeichert.
+Aufgezeichnete Plots und deren Daten können abgespeichert werden. Je nach Kriteriumserfüllung werden diese in seperaten Ordner gespeichert.
 
 ### Other background information
 
