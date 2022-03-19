@@ -27,18 +27,7 @@
 | Änderungsgeschichte            | Versionierung, Name des Autors, Datum                                                                                                                                                   | 0.01; 10.01.2022.; Julian Huber                                                                                                                  |
 |                                |                                                                                                                                                                                         |                                                                                                                                                  |
 
-### Weitere sind zu befüllen
-
-# Beschreibung der Anwendungsfälle
-
-## UML-Diagramm
-
-![](UML_UseCase_Ergometer.svg)
-
-## Tabellen
-
-
-### UC 2.0. - Auswertung der Leistungsdaten
+### UC 2.6. - Manuelle Eingabe 
 
 
 |                                | Erklärung                                                                                                                                                                               | Beispiel                                                                                                                                         |
