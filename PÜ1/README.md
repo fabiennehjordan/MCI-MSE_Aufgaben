@@ -1,7 +1,9 @@
 # Leistungsdiagnostik
 **(kurze Beschreibung des Ziels)**
 
-Werkzeug zur Vereinfachung und Automatisierung von Leistungstests, basierend auf EKG-Daten und Leistungswerten und Patient:innen-Daten
+Werkzeug zur Vereinfachung und Automatisierung von Leistungstests, basierend auf EKG-Daten und Leistungswerten und Patient:innen-Daten.
+Die EKG-Daten sowie die Leistungswerte eines Patienten werden von einem Ergometer geliefert. Diese sollen dann mittels Software verarbeitet und visualisiert werden, damit eine befugte Person diese Auswerten kann. Ein UI wird in dieser Verison der Software noch nicht benötigt, da alle Befehle (zum Beispiel ein manueller Abbruch des Leistungstest) via Kommandozeile ausgeführt werden. Die Daten werden je nach Erfolg unter verschiedene Verzeichnisse abgespeichert. Eine spätere Bearbeitung der Daten soll möglich sein.
+
 
 ## Installation
 
