@@ -59,7 +59,7 @@ Aus diesem muss die Herzrate bestimmt werden.
 ## Known future enhancements
 
 Entwicklung einer Applikation mit einem UI.
-Vor der Durchführung soll eine Abfrage auf Kontraindikationen ausgeführt werden. diese können beinhalten:
+Vor der Durchführung soll eine Abfrage auf Kontraindikationen ausgeführt werden. diese können Folgendes beinhalten:
 
   - Floride systemische oder kardiale Infektion
   - Instabile Angina pectoris oder Myokardinfarkt
