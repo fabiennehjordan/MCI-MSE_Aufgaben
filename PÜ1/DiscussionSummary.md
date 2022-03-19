@@ -23,7 +23,7 @@ Aufgezeichnete Plots und deren Daten können abgespeichert werden. Je nach Krite
 ## Perspectives
 ### Who will use the system?
 
-Proband:in, Diagnostiker, Ärzt:in sowie Testaufseher.
+Proband:in, Diagnostiker:in, Ärzt:in sowie Testaufseher:in.
 
 ### Who can provide input about the system?
 
