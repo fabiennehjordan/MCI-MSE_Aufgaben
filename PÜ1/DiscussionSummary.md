@@ -45,7 +45,7 @@ Aus diesem muss die Herzrate bestimmt werden.
 ### Assumptions and dependencies
 
 Zum einem ist die Abbrucherkennung bezüglich des Maximalspuls von der Altersangabe des Probanden:in abhängig und die endgültige Gültigkeit des durchgeführten Testes ist weiterhin stark von der Genauigkeit der nachträglichen Datendurchsicht des Diagnostikers:in abhängig.
-Weiters wird die allgemeine Annahme getroffen, dass alle Personen im selben Alter den selben maximalen Puls haben.
+Weiters wird nach bisher vorliegenden Definition, seitens des Auftragsgebers. die allgemeine Annahme getroffen, dass alle Personen im selben Alter den selben maximalen Puls haben.
 
 
 ### Design and implementation constraints
