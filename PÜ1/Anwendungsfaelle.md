@@ -27,7 +27,7 @@
 | Änderungsgeschichte            | Versionierung, Name des Autors, Datum                                                                                                                                                   | 0.01; 10.01.2022.; Julian Huber                                                                                                                  |
 |                                |                                                                                                                                                                                         |                                                                                                                                                  |
 
-### UC 2.6. - Manuelle Eingabe 
+### UC 2.6. - Manuelle Eingabe eines Abbruchkriteriums
 
 
 |                                | Erklärung                                                                                                                                                                               | Beispiel                                                                                                                                         |
