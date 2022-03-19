@@ -31,8 +31,11 @@ Die Daten der Probanden werden über das Ergometer selber aufgezeichnet.
 
 ## Project Objectives
 ### Known business rules
+'Definition (später löschen): Weiters können es auch einfach Vorgaben sein, die beschreiben, wie sich ein
+Computerprogramm oder Geschäftsprozess, der durch ein Computerprogramm gesteuert wird,
+verhalten soll.'
 
-...
+Die einzig bekannte Business Rule kommt bei der angemerkte zukünftigen Erweiterungmöglichkeit: Nutzerinterface soll eine:n Diagnostiker:in durch einen solchen Leistungstest führen. Dies bedeutet für das Programm, dass es nicht komplett autonom funktionieren soll sondern als Wegbereiter/Gehhilfe für den zukünftigen Anwender:in fungieren soll.
 
 ### System information and/or diagrams
 
