@@ -18,24 +18,22 @@ Aufgezeichnete Plots und deren Daten können abgespeichert werden. Je nach Krite
 
 ### Other background information
 
-...
+Der Auftraggeber ist bereits im Besitz von funktionsfähigen Ergometern, die er mittels der Software im Bezug auf Handling und Testauswertung verbessern möchte.
 
 ## Perspectives
 ### Who will use the system?
 
-Proband:in, Diagnostiker:in, Ärzt:in sowie Testaufseher:in.
+Das System wird von folgenden Personen genutzt: Proband:in, Diagnostiker:in, Ärzt:in, Testaufseher:in sowie der Auftraggeber:in selbst in seinen zukünftigen Ergometern.
 
 ### Who can provide input about the system?
 
-Die Leistungsdaten, die der/die Proband:in erbringt, werden durch das Ergometer selber aufgezeichnet.
+Die Daten werden durch die Durchführung eines solchen Leistungstestes zur Verfügung gestellt. Somit liefert hauptsächlich der Proband:in die Daten, und die werden durchs Ergometer grob vorverbearbeitet.
 
 ## Project Objectives
 ### Known business rules
-'Definition (später löschen): Weiters können es auch einfach Vorgaben sein, die beschreiben, wie sich ein
-Computerprogramm oder Geschäftsprozess, der durch ein Computerprogramm gesteuert wird,
-verhalten soll.'
 
-Die einzig bekannte Business Rule kommt bei der angemerkte zukünftigen Erweiterungmöglichkeit: Nutzerinterface soll eine:n Diagnostiker:in durch einen solchen Leistungstest führen. Dies bedeutet für das Programm, dass es nicht komplett autonom funktionieren soll sondern als Wegbereiter/Gehhilfe für den zukünftigen Anwender:in fungieren soll.
+Das zu entwickelnde Tool soll als assistierende Unterstützung fungieren, also nicht autonom arbeiten.
+
 
 ### System information and/or diagrams
 
@@ -46,15 +44,18 @@ Aus diesem muss die Herzrate bestimmt werden.
 
 ### Assumptions and dependencies
 
-...
+Zum einem ist die Abbrucherkennung bezüglich des Maximalspuls von der Altersangabe des Probanden:in abhängig und die endgültige Gültigkeit des durchgeführten Testes ist weiterhin stark von der Genauigkeit der nachträglichen Datendurchsicht des Diagnostikers:in abhängig.
+Weiters wird die allgemeine Annahme getroffen, dass alle Personen im selben Alter den selben maximalen Puls haben.
+
 
 ### Design and implementation constraints
 
-...
+Eine Einschränkung besteht in der Vorgabe, dass zunächst das Programm lediglich über die Kommandozeile bedient werden soll.
 
 ## Risks
 
-...
+Es besteht ein gewisses Risiko besteht im Abbruchkriterium begzüglich des maximalen Pulses, da ja auch Menschen mit schwachen Herzen und so ähnlichem auch solche Tests machen. Denn bei jenen liegt bereits ein gesundheitsgefährender Zustand weit unter dem, aus der angegebenen Formel, berechneten Maximalpuls vor.
+Aufgrund der erst nachträglich erfolgen Kontrolle durch die Diagnostiker:in kann es sein, dass ein Proband den Test nochmals bewältigen muss.
 
 ## Known future enhancements
 
@@ -74,4 +75,4 @@ Vor der Durchführung soll eine Abfrage auf Kontraindikationen ausgeführt werde
 
 ## Open, unresolved or TBD issues
 
-...
+Da bei dem Abbruchkriterium nur zum Beispiel steht, ist es noch nötig genauere Definition bezüglich der automatischen, also vom Ergometer selbsterkennenden, Abbruchkriterien zu erhalten beziehungsweise zu besprechen.
