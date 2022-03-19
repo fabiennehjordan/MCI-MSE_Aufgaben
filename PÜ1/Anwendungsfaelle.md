@@ -29,7 +29,7 @@
 
 ### Weitere sind zu befüllen
 
-### UC 2.6. - Manuelle Eingabe eines Abbruchkriteriums
+### UC 2.6. - Manuelle Eingabe eines Abbruch-Kriteriums
 
 
 |                                | Erklärung                                                                                                                                                                               | Beispiel                                                                                                                                         |
