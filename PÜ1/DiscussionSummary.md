@@ -27,7 +27,7 @@ Proband:in, Diagnostiker, Ärzt:in sowie Testaufseher.
 
 ### Who can provide input about the system?
 
-Die Daten der Probanden werden über das Ergometer selber aufgezeichnet.
+Die Leistungsdaten, die der Proband:in erbringt, werden durch das Ergometer selber aufgezeichnet.
 
 ## Project Objectives
 ### Known business rules
