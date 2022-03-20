@@ -54,7 +54,7 @@ Eine Einschränkung besteht in der Vorgabe, dass zunächst das Programm lediglic
 
 ## Risks
 
-Es besteht ein gewisses Risiko besteht im Abbruchkriterium begzüglich des maximalen Pulses, da ja auch Menschen mit schwachen Herzen und so ähnlichem auch solche Tests machen. Denn bei jenen liegt bereits ein gesundheitsgefährender Zustand weit unter dem, aus der angegebenen Formel, berechneten Maximalpuls vor.
+Es besteht ein gewisses Risiko besteht im Abbruchkriterium bezüglich des maximalen Pulses, da ja auch Menschen mit schwachen Herzen und so ähnlichem auch solche Tests machen. Denn bei jenen liegt bereits ein gesundheitsgefährender Zustand weit unter dem, aus der angegebenen Formel, berechneten Maximalpuls vor.
 Aufgrund der erst nachträglich erfolgen Kontrolle durch die Diagnostiker:in kann es sein, dass ein Proband den Test nochmals bewältigen muss.
 
 ## Known future enhancements
