@@ -50,12 +50,12 @@ Weiters wird nach bisher vorliegenden Definition, seitens des Auftragsgebers. di
 
 ### Design and implementation constraints
 
-Eine Einschränkung besteht in der Vorgabe, dass zunächst das Programm lediglich über die Kommandozeile bedient werden soll.
+Eine bereits in der Vorgabe gegeben Einschränkung ist,  dass zunächst das Programm lediglich über die Kommandozeile bedient werden soll.
 
 ## Risks
 
-Es besteht ein gewisses Risiko besteht im Abbruchkriterium bezüglich des maximalen Pulses, da ja auch Menschen mit schwachen Herzen und so ähnlichem auch solche Tests machen. Denn bei jenen liegt bereits ein gesundheitsgefährender Zustand weit unter dem, aus der angegebenen Formel, berechneten Maximalpuls vor.
-Aufgrund der erst nachträglich erfolgen Kontrolle durch die Diagnostiker:in kann es sein, dass ein Proband den Test nochmals bewältigen muss.
+Es besteht ein gewisses Risiko im Abbruchkriterium bezüglich des maximalen Pulses, da auch Menschen mit schwachen Herzen und ähnlichem auch solche Tests machen. Denn bei jenen liegt bereits ein gesundheitsgefährender Zustand weit unter dem, aus der angegebenen Formel, berechneten Maximalpuls vor.
+Aufgrund der erst nachträglich erfolgten Kontrolle durch die Diagnostiker:in kann es sein, dass ein Proband den Test nochmals bewältigen muss.
 
 ## Known future enhancements
 
@@ -75,4 +75,4 @@ Vor der Durchführung soll eine Abfrage auf Kontraindikationen ausgeführt werde
 
 ## Open, unresolved or TBD issues
 
-Da bei dem Abbruchkriterium nur zum Beispiel steht, ist es noch nötig genauere Definition bezüglich der automatischen, also vom Ergometer selbsterkennenden, Abbruchkriterien zu erhalten beziehungsweise zu besprechen.
+Da bei dem Abbruchkriterium nur ein Beispiel genannt wird, bedarf es des Weiteren noch einer genaueren Definition und Besprechung der automatischen bzw. selbsterkennnenden Abbruchkriterien des Ergometers.
