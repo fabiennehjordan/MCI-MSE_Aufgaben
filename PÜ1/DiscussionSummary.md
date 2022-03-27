@@ -44,9 +44,12 @@ Aus diesem muss die Herzrate bestimmt werden.
 
 ### Assumptions and dependencies
 
-Zum einem ist die Abbrucherkennung bezüglich des Maximalspuls von der Altersangabe des Probanden:in abhängig und die endgültige Gültigkeit des durchgeführten Testes ist weiterhin stark von der Genauigkeit der nachträglichen Datendurchsicht des Diagnostikers:in abhängig.
-Weiters wird nach bisher vorliegenden Definition, seitens des Auftragsgebers. die allgemeine Annahme getroffen, dass alle Personen im selben Alter den selben maximalen Puls haben.
+( Anmerkungen von PÜ1: Zum einem ist die Abbrucherkennung bezüglich des Maximalspuls von der Altersangabe des Probanden:in abhängig und die endgültige Gültigkeit des durchgeführten Testes ist weiterhin stark von der Genauigkeit der nachträglichen Datendurchsicht des Diagnostikers:in abhängig.
+Weiters wird nach bisher vorliegenden Definition, seitens des Auftragsgebers. die allgemeine Annahme getroffen, dass alle Personen im selben Alter den selben maximalen Puls haben.)
 
+Die Dateien "subject_1", "subject_2" und "subject_3" beinhalten folgende Daten der einzelnen Probanden: ID-Nummer, zu erbringende Leistung, Geburstjahr. Zudem ist auch die Testdauer mit 180 Sekunden, also 3 Minuten, in diesen Dateien erfasst.
+Die Dateien "power_data_1" , "power_data_2" und "power_data_3" enthalten die tatsächlich sekündlich erbrachten Leistungen des jeweiligen Probanden.
+Die Dateien "ecg_data_subject_1" , "ecg_data_subject_2" und " ecg_data_subject_3" sind die aufgezeichneten EKG-Daten der Probanden. (Zeitliche Auflösung?)
 
 ### Design and implementation constraints
 
