@@ -11,7 +11,6 @@
 #definiert eine Funktion valid()
 #Funktion wird als false angenommen, wenn der Puls 90% der maximalen Herzfrequenz entspricht
 #
-#
 
 #%% 2.4 - Erstellen einer Zusammenfassung
 # Erstellung eines txt.-files, welches die relevantesten Kennzahlen behinhaltet (z.B maximale Herzfrequenz, durchschnittliche Herzfrequenz,..)
