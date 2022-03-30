@@ -29,11 +29,15 @@ Das System wird von folgenden Personen genutzt: Proband:in, Diagnostiker:in, Är
 
 Die Daten werden durch die Durchführung eines solchen Leistungstestes zur Verfügung gestellt. Somit liefert hauptsächlich der Proband:in die Daten, und die werden durchs Ergometer grob vorverbearbeitet.
 
+*Hier geht es um Hilfestellung bei Problemen, also beispielsweise um den Softwareentwickler -YS*
+
+
 ## Project Objectives
 ### Known business rules
 
 Das zu entwickelnde Tool soll als assistierende Unterstützung fungieren, also nicht autonom arbeiten.
 
+*Unter business rules wird der Ablauf beschrieben, in diesem Fall die Verwendung des Programms während dem Leistungstest -YS*
 
 ### System information and/or diagrams
 
@@ -59,6 +63,8 @@ Eine bereits in der Vorgabe gegeben Einschränkung ist,  dass zunächst das Prog
 
 Es besteht ein gewisses Risiko im Abbruchkriterium bezüglich des maximalen Pulses, da auch Menschen mit schwachen Herzen und ähnlichem auch solche Tests machen. Denn bei jenen liegt bereits ein gesundheitsgefährender Zustand weit unter dem, aus der angegebenen Formel, berechneten Maximalpuls vor.
 Aufgrund der erst nachträglich erfolgten Kontrolle durch die Diagnostiker:in kann es sein, dass ein Proband den Test nochmals bewältigen muss.
+
+*Hier geht es weniger um medizinische Risiken und mehr um Projektrisiken wie beispielsweise eine falsche Datenausgabe -YS*
 
 ## Known future enhancements
 
