@@ -55,6 +55,8 @@ Die Dateien "subject_1", "subject_2" und "subject_3" beinhalten folgende Daten d
 Die Dateien "power_data_1" , "power_data_2" und "power_data_3" enthalten die tatsächlich sekündlich erbrachten Leistungen des jeweiligen Probanden.
 Die Dateien "ecg_data_subject_1" , "ecg_data_subject_2" und " ecg_data_subject_3" sind die aufgezeichneten EKG-Daten der Probanden. Dabei werden pro Sekunde 1000 Messdaten erfasst (1000Hz- Auflösung).
 
+*Es wäre noch gut die Dateiformate und Einheiten zu erwähnen. -YS*
+
 ### Design and implementation constraints
 
 Eine bereits in der Vorgabe gegeben Einschränkung ist,  dass zunächst das Programm lediglich über die Kommandozeile bedient werden soll.
