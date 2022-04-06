@@ -15,4 +15,5 @@ for i in range(1,4):
   plt.show()
 # %%
 
-# %%
+# Die Probleme in Zeile 10 kommen daher, dass der letzte Wert leer ist und
+# ein leerer String nicht in einen Integer konvertiert werden kann -YS
