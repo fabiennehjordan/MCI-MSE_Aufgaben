@@ -4,7 +4,9 @@
 import pandas as pd
 import neurokit2 as nk
 import json
-
+import logging as log
+log.basicConfig(filename='testlog.log', format='%(levelname)s:%(asctime)s %(message)s', encoding='utf-8', level=log.INFO)
+log.info('new Log')
 # %%
 # Definition of Classes
 
@@ -87,9 +89,7 @@ class Test:
     def create_hr_data(self):
         """
         Load a dataframe of ecg_data to add additional attributes to the test object
-
         """
-
         self.ecg_data["ECG"] = self.ecg_data.iloc[:, [1]]
 
         # Find peaks
@@ -154,8 +154,9 @@ class Test:
         self.manual_termination = False
         self.manual_termination = input("Is this test invalid? (leave blank if valid): ")
 
-        if self.manual_termination != False:
+        if self.manual_termination != '':   
             self.termination = True
+            log.info('Test with subject-id: %s was invalid, because: %s', self.subject_id, self.manual_termination)
         
 
     def create_plot(self):
@@ -196,7 +197,6 @@ class Test:
 
 ## Einlesen der Daten
 
-
 ### Erstellen leerer Liste zur Verarbeitung
 list_of_new_tests = []
 list_of_subjects = []
@@ -207,6 +207,7 @@ list_of_power_data = []
 import os
 from re import I
 import pandas as pd
+
 
 folder_current = os.path.dirname(__file__) 
 folder_input_data = os.path.join(folder_current, 'input_data')
@@ -225,7 +226,6 @@ for file in os.listdir(folder_input_data):
 # %% Programmablauf
 
 iterator = 0                                            # Zähler, der die gefundenen Dateien und damit Tests zählt
-
 for test in list_of_new_tests:                          # Alle Tests werden nacheinander durchlaufen
     test.create_hr_data()                               # Erstelle Herzraten aus den EKG-Daten
     test.add_subject(list_of_subjects[iterator])        # Fügt einem Test die passenden Versuchspersonen hinzu
@@ -236,5 +236,8 @@ for test in list_of_new_tests:                          # Alle Tests werden nach
     test.create_summary()                               #Zusammenfassung erstellen
     test.save_data()                                    #Testergebnis als JSON-Datei abspeichern
     
+    log.info('Data of Subject-id: %s has been loaded', str(iterator + 1))      
     iterator = iterator + 1
+
+log.info('%s files have been loaded completely.', str(iterator))
 # %%

@@ -1,7 +1,7 @@
 {
     "User ID": "2",
     "Automatic test termination": false,
-    "Reason for test termation": "test3",
+    "Reason for test termation": "",
     "Average Heart Rate": 133.33333333333334,
     "Variance Heart Rate": 1498.1357023726848,
     "Maximum Heart Rate": 186.0,

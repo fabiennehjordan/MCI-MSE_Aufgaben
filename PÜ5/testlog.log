@@ -1,0 +1,11 @@
+INFO:2022-04-17 10:55:17,440 new Log
+INFO:2022-04-17 10:55:22,612 Data of Subject-id: 1 has been loaded
+INFO:2022-04-17 10:55:33,187 Test with subject-id: 2 was invalid,because: test failed
+INFO:2022-04-17 10:55:33,189 Data of Subject-id: 2 has been loaded
+INFO:2022-04-17 10:55:34,131 Data of Subject-id: 3 has been loaded
+INFO:2022-04-17 10:55:34,131 4 files have been loaded completely.
+INFO:2022-04-17 10:56:19,861 Data of Subject-id: 1 has been loaded
+INFO:2022-04-17 10:56:22,748 Test with subject-id: 2 was invalid,because: test failed
+INFO:2022-04-17 10:56:22,750 Data of Subject-id: 2 has been loaded
+INFO:2022-04-17 10:56:23,751 Data of Subject-id: 3 has been loaded
+INFO:2022-04-17 10:56:23,751 3 files have been loaded completely.
