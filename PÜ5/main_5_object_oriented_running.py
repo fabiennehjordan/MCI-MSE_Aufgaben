@@ -5,6 +5,7 @@ import pandas as pd
 import neurokit2 as nk
 import json
 
+
 # %%
 # Definition of Classes
 
@@ -165,6 +166,7 @@ class Test:
         self.plot_data = pd.DataFrame()
         self.plot_data["Heart Rate"] = self.hr_peaks[self.ecg_data.index % 1000 == 0]["average_HR_10s"]  
         self.plot_data = self.plot_data.reset_index(drop=True)
+      
 
         self.plot_data["Power (Watt)"] = pd.to_numeric(self.power_data.power_data_watts)
         self.plot_data.plot()
