@@ -107,7 +107,7 @@ class Test:
         
         self.maximum_hr = self.hr_peaks['average_HR_10s'].max()
 
-        self.hr_variance = self.hr_peaks['average_HR_10s'].var()
+        self.hr_variance = self.hr_peaks['ECG_R_Peaks'].var()*1000*60
         #self.peaks['average_HR_10s'].plot()
 
     def evaluate_termination(self):

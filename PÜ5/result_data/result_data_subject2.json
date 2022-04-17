@@ -1,10 +1,10 @@
 {
     "User ID": "2",
-    "Automatic test termination": false,
-    "Reason for test termation": "",
-    "Average Heart Rate": 133.33333333333334,
-    "Variance Heart Rate": 1498.1357023726848,
-    "Maximum Heart Rate": 186.0,
+    "Automatic test termination": true,
+    "Reason for test termation": "yes",
+    "Average Heart Rate": 127.33333333333333,
+    "Variance Heart Rate": 127.06380961375706,
+    "Maximum Heart Rate": 192.0,
     "Test Length (s)": 180,
-    "Test Power (W)": 300
+    "Test Power (W)": 100
 }
