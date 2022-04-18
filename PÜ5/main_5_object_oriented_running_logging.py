@@ -5,7 +5,7 @@ import pandas as pd
 import neurokit2 as nk
 import json
 import logging as log
-import matplotlip.pyplot as plt
+import matplotlib.pyplot as plt
 
 log.basicConfig(filename='testlog.log', format='%(levelname)s:%(asctime)s %(message)s', encoding='utf-8', level=log.INFO)
 log.info('new Log')
