@@ -5,6 +5,8 @@ import pandas as pd
 import neurokit2 as nk
 import json
 import logging as log
+import matplotlip.pyplot as plt
+
 log.basicConfig(filename='testlog.log', format='%(levelname)s:%(asctime)s %(message)s', encoding='utf-8', level=log.INFO)
 log.info('new Log')
 # %%
@@ -107,7 +109,7 @@ class Test:
         
         self.maximum_hr = self.hr_peaks['average_HR_10s'].max()
 
-        self.hr_variance = self.hr_peaks['ECG_R_Peaks'].var()*1000*60
+        self.hr_variance = self.hr_peaks['average_HR_10s'].var()
         #self.peaks['average_HR_10s'].plot()
 
     def evaluate_termination(self):
@@ -166,10 +168,11 @@ class Test:
         self.plot_data = pd.DataFrame()
         self.plot_data["Heart Rate"] = self.hr_peaks[self.ecg_data.index % 1000 == 0]["average_HR_10s"]  
         self.plot_data = self.plot_data.reset_index(drop=True)
-
         self.plot_data["Power (Watt)"] = pd.to_numeric(self.power_data.power_data_watts)
-        self.plot_data.plot()
-    
+        self.plot_data.plot(xlabel = "t/$s$" , ylabel = "Heartrate and Power" , 
+                            title = f"Plot of Subject {str(self.subject.subject_id)}")
+
+        plt.savefig()
 
     def save_data(self):
         """
