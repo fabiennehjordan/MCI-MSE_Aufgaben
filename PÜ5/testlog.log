@@ -41,3 +41,11 @@ INFO:2022-04-17 20:56:17,451 Data of Subject-id: 2 has been loaded
 INFO:2022-04-17 20:56:19,045 Test with subject-id: 3 was invalid, because: no
 INFO:2022-04-17 20:56:19,045 Data of Subject-id: 3 has been loaded
 INFO:2022-04-17 20:56:19,053 3 files have been loaded completely.
+INFO:2022-04-18 09:41:32,641 new Log
+INFO:2022-04-18 09:43:21,015 Test with subject-id: 1 was invalid, because: no
+INFO:2022-04-18 09:43:21,017 Data of Subject-id: 1 has been loaded
+INFO:2022-04-18 09:43:22,462 Test with subject-id: 2 was invalid, because: yes
+INFO:2022-04-18 09:43:22,465 Data of Subject-id: 2 has been loaded
+INFO:2022-04-18 09:43:23,757 Test with subject-id: 3 was invalid, because: no
+INFO:2022-04-18 09:43:23,758 Data of Subject-id: 3 has been loaded
+INFO:2022-04-18 09:43:23,759 3 files have been loaded completely.

@@ -6,6 +6,9 @@ import neurokit2 as nk
 import json
 import logging as log
 import matplotlib.pyplot as plt
+import os
+from re import I
+
 
 log.basicConfig(filename='testlog.log', format='%(levelname)s:%(asctime)s %(message)s', encoding='utf-8', level=log.INFO)
 log.info('new Log')
@@ -159,6 +162,14 @@ class Test:
         if self.manual_termination != '':   
             self.termination = True
             log.info('Test with subject-id: %s was invalid, because: %s', self.subject_id, self.manual_termination)
+
+
+    def _build_path_plot(self):                                             #gerätespezifischer Speicherpfadvergabe
+        working_dir = os.path.dirname(__file__)                            
+        destination_dir = os.path.join(working_dir, 'result_data')
+        file_name = f"Plot_of_subject_{str(self.subject.subject_id)}.jpeg"
+        file_path = os.path.join(destination_dir, file_name)
+        return file_path
         
 
     def create_plot(self):
@@ -172,20 +183,24 @@ class Test:
         self.plot_data.plot(xlabel = "t/$s$" , ylabel = "Heartrate and Power" , 
                             title = f"Plot of Subject {str(self.subject.subject_id)}")
 
-        plt.savefig()
+        plt.savefig(self._build_path_plot())
 
     def save_data(self):
         """
         Store the test data in a JSON file
         """
-        __data = {"User ID": self.subject_id,
-                  "Automatic test termination": self.terminated,
-                  "Reason for test termation": self.manual_termination, 
-                  "Average Heart Rate": self.average_hr_test,
-                  "Variance Heart Rate": self.hr_variance,
-                  "Maximum Heart Rate": self.maximum_hr,
-                  "Test Length (s)": self.power_data.duration_s, 
-                  "Test Power (W)": self.subject.test_power_w}
+        __data = {
+            "Test": {
+                    "User ID": self.subject_id,
+                    "Automatic test termination": self.terminated,
+                    "Reason for test termation": self.manual_termination,
+                    "Average Heart Rate": self.average_hr_test,
+                    "Variance Heart Rate": self.hr_variance,
+                    "Maximum Heart Rate": self.maximum_hr,
+                    "Test Length (s)": self.power_data.duration_s,
+                    "Test Power (W)": self.subject.test_power_w,
+                    "Plot Path": self._build_path_plot()}  #wenn Code auf anderen Gerät ausgeführt wird, wird sich dieser ändern
+                }
 
         __folder_current = os.path.dirname(__file__) 
         __folder_input_data = os.path.join(__folder_current, 'result_data')

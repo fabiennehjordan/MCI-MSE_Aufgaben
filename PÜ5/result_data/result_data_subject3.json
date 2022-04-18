@@ -1,10 +1,13 @@
 {
-    "User ID": "3",
-    "Automatic test termination": false,
-    "Reason for test termation": "no",
-    "Average Heart Rate": 133.33333333333334,
-    "Variance Heart Rate": 133.03777613579337,
-    "Maximum Heart Rate": 186.0,
-    "Test Length (s)": 180,
-    "Test Power (W)": 300
+    "Test": {
+        "User ID": "3",
+        "Automatic test termination": false,
+        "Reason for test termation": "no",
+        "Average Heart Rate": 133.33333333333334,
+        "Variance Heart Rate": 1498.1357023726848,
+        "Maximum Heart Rate": 186.0,
+        "Test Length (s)": 180,
+        "Test Power (W)": 300,
+        "Plot Path": "c:\\Users\\jorda\\Desktop\\Github Clone #2\\MCI-MSE_Aufgaben\\PÜ5\\result_data\\Plot_of_subject_3.jpeg"
+    }
 }
